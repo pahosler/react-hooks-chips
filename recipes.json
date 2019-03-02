@@ -1,0 +1,44 @@
+[
+  {
+    "title": "spaghetti",
+    "ingredients": ["1 lb pasta", "2 jars Ragu"],
+    "directions": [
+      "Add pasta to 4qts boiling water",
+      "stir occasionally and let boil for approx 10 mins",
+      "Remove from heat and drain water from pasta",
+      "Heat Ragu according to directions on jar"
+    ]
+  },
+  {
+    "title": "pizza",
+    "ingredients": ["1 frozen Digiorno Pizza"],
+    "directions": [
+      "Follow heating instructions on box",
+      "Slice into 8 pieces",
+      "if you think 8 would be too filling slice into 4 pieces",
+      "and remember, it's not delivery, it's Digiorno!"
+    ]
+  },
+  {
+    "title": "tomato soup",
+    "ingredients": ["1 can Progresso Tomato Basil Soup"],
+    "directions": [
+      "Use can opener to open can",
+      "Empty into a microwave safe bowl",
+      "Heat on high approximately 3 mins"
+    ]
+  },
+  {
+    "title": "wish sandwich",
+    "ingredients": ["2 slices of bread", "1 Wish"],
+    "directions": ["While holding bread use wish to wish for meat", "Eat bread"]
+  },
+  {
+    "title": "ricochet biscuit",
+    "ingredients": ["1 rubber biscuit"],
+    "directions": [
+      "Throw biscuit against wall",
+      "If biscuit doesn't bounce back into your mouth, you go hungry!"
+    ]
+  }
+]

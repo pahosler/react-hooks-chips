@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+.chips {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.chip {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 3px;
+  margin: 5px;
+  background: lightseagreen;
+  color: rgb(255, 255, 255);
+}
+
+.close {
+  /* width: 10px; */
+  margin: 2px;
+  width: 12px;
+  border-radius: 50%;
+  border: 1px solid black;
+  font-size: 11px;
+  text-align: center;
+  background: cyan;
+  color: black;
+  cursor: pointer;
+}
