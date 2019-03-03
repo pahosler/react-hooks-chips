@@ -1,15 +1,11 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
-import Recipes from "../recipes.json";
 import randomWords from "random-words";
 import "./styles.css";
 
 function App() {
-  const recipes = JSON.parse(JSON.stringify(Recipes));
   const [words, setWords] = useState([]);
-  // const [recipe, setRecipe] = useState(recipes);
   const handleClose = e => {
-    console.log(words[e.target.id]);
     setWords(words.filter((word, i) => word !== words[e.target.id]));
   };
   return (
@@ -34,10 +30,3 @@ function App() {
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
-// {count.map(r => (
-//   <li
-//     style={{ textAlign: "left", margin: "auto", listStyleType: "none" }}
-//   >
-//     {r}
-//   </li>
-// ))}
